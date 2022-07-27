@@ -1,0 +1,88 @@
+body {
+  background-image: url("images/matrix.gif");
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size:medium;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bolder;
+}
+
+.link_bio {
+  text-decoration: none;
+  color: #008F11;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+}
+.link_bio:hover {
+  color: white;
+  background-color: #008F11;
+  transition: 0.5s;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: rgba(235, 237, 239, 0.563);
+  text-align: center;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 5px 5px 10px #008F11;
+}
+
+.medialist > li {
+  list-style-type: none;
+  display: inline-flex;
+  margin: 10px;
+}
+.medialist {
+  padding-left: 0;
+}
+
+a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+}
+
+.halloween {
+  color: white;
+  text-decoration: none;
+}
+
+.halloween:hover {
+  color: #008F11;
+  transition: 0.5s;
+}
+
+.media-btn {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.media-btn:hover {
+  color: #008F11;
+  transition: 0.5s;
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
